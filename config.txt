@@ -1,0 +1,12 @@
+{
+  "data": {
+    "essid": "Your_wireless_name",
+    "bssid1": "Your_wireless_bssid",
+    "password": "password_of_smtp",
+    "sender": "sender_email",
+    "receiver": "receiver_email",
+    "port": "smtp_port",
+    "server":"smtp_server",
+    "interface":"interface_name"
+  }
+} 

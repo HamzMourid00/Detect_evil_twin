@@ -1,0 +1,9 @@
+pip3 install pywifi
+pip3 install psutil
+pip3 installsmtplib
+
+# for linux users
+aireplay-ng
+airodump-ng 
+mdk4
+xterm
