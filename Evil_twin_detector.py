@@ -82,9 +82,3 @@ while True:
                             send()
                             reset_win()
                             time.sleep(5)
-
-
-
-
-
-            
