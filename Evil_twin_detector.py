@@ -33,7 +33,7 @@ def send():
             server.starttls(context=context)  # secure the connection
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message)   
-            #time.sleep(30)
+            time.sleep(30)
     except Exception as e:
         print(f"An error occurred when sending email: {e}")
 
