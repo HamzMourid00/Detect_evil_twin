@@ -1,6 +1,6 @@
 pip3 install pywifi
 pip3 install psutil
-pip3 installsmtplib
+pip3 install smtplib
 
 # for linux users
 aireplay-ng
