@@ -1,12 +1,15 @@
 {
   "data": {
-    "essid": "Your_wireless_name",
-    "bssid1": "Your_wireless_bssid",
-    "password": "password_of_smtp",
+    "essid": "Wireless_ssid",
+    "//first_comment":  "You can add some many bssid just use a comma (,)",
+    "bssid": "['bssid','bssid']",
+    "password": "smtp_password",
     "sender": "sender_email",
     "receiver": "receiver_email",
     "port": "smtp_port",
     "server":"smtp_server",
-    "interface":"interface_name"
+    "interface":"interface",
+    "channel":"channel_number"
   }
 } 
+
